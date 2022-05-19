@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* input{
+  display: flex;
+  flex-direction: column;
+  padding:10px;
+  margin: 100px;
+  justify-content: center;
+} */
+.form{
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: #1976d2;
+  margin: 5% 30%;
+  padding: 20px;
+}
+
+.search{
+  display: flex;
+  justify-content: right;
+  padding: 5px;
+  margin-bottom: 10px;
+  /* margin-left: 80%; */
+  border-color: #e3edf8;
+  border-radius: 10px;
+  color: #1976d2;
+}
+.searchbg{
+  background-color: #1976d2;
+}
+
+.input-form{
+  padding: 10px;
+  /* margin: 5px 15px ; */
+  border-radius: 20px ;
+  border-color:#1976d2 ;
+  
+}
+
+.form-head{
+  color: aliceblue;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.submit-button{
+  margin: 10px;
+  color:#1976d2;
+  background-color: white;
+  padding: 10px;
+  border-color: #e3edf8;
+  border-radius: 20px;
+}
+.submit-button:hover{
+  color:white;
+  background-color:#1976d2;
+  padding: 10px;
+  border-color: #e3edf8;
+  border-radius: 20px;
+}
+#demo-controlled-radio-buttons-group {
+  text-align: left;
+  color: white;
+}
+.gender-lable{
+  color: #e3edf8;
+}
+.gender{
+  text-align: left;
+  margin-left: 15px;
+}
+/* .container{
+  display:flexbox;
+  flex-direction: row;
+  
+} */
+
+#demo-simple-select-label{
+  color: #e3edf8;
+  margin-right: 5px;
+  border-color: #e3edf8;
+
+  
+}
+
+#demo-simple-select{
+  border-color: #e3edf8;
+  background-color: #1976d2;
+  margin:0px 5px
+  
+}
+
+/* .drop-down{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-right:  5px;
+  background-color: #e3edf8;
+  
+} */
+
+#tool-bar{
+  display: flex;
+  flex-direction: row;
+justify-content: right;
+align-items: center;
+padding-right:20px;
+margin-top: -40px;
+
+
+}
+.sort{
+  background: transparent;
+  color:white;
+  border-color: white;
+  margin:0px 10px;
+  border-radius: 25%;
+  height: 30px;
+}
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  background-color: gray;
+  color:#e3edf8
+}
+
+.table-name{
+  display: flex;
+  
+  width:auto;
+  align-items: center;
+  max-width: 400px;
+}
